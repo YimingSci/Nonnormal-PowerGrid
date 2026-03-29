@@ -31,10 +31,11 @@ This module enables exploration of targeted inertia placement strategies based o
 
 
 
-## Iberian Blackout on April 28, 2025
-Using data from the respective transmission system operators (TSOs), Fig. S1(a–c) illustrates the electricity generation patterns for Portugal [3], Spain [3], and France [4] on April 28, 2025. A blackout occurred at approximately 12:32 p.m. (UTC+01:00). To replicate these conditions in our simulations, the file `EUR_2025.mat` was prepared with generator outputs and power flows adjusted so that the modeled generation mix in the three countries matches the actual system state on that day.
+## European Grid Dataset and Operating Conditions
 
-Fig. S1(d) summarizes the initial disturbance setup, where more than ten individual power-loss events are grouped into six representative buses, each named after a nearby major city. The Bus ID corresponds to the simulated disturbance node and can be matched to the bus numbering in `EUR_2025.mat`.
+Using data from the respective transmission system operators (TSOs), Fig. S1(a–c) illustrates the electricity generation patterns for Portugal [3], Spain [3], and France [4] on April 28, 2025. A large-scale disturbance occurred at approximately 12:32 p.m. (UTC+01:00).
+
+To construct a representative system state, the file `EUR_2025.mat` was prepared by adjusting generator outputs and power flows such that the modeled generation mix in these countries is consistent with typical operating conditions around that period. This setup is not intended to reproduce the real event, but rather to provide a realistic large-scale dynamical model for studying non-normality in power grids. Fig. S1(d) summarizes the disturbance setup used in the simulations, where multiple power-loss events are aggregated into six representative buses, each named after a nearby major city. The Bus ID corresponds to the disturbance location in the model and can be matched to the bus numbering in `EUR_2025.mat`.
 
 
 <img width="1000" alt="477168272-150a4c68-7639-4d7e-b3e4-4f67d656fe49" src="https://github.com/user-attachments/assets/dea5d861-0b86-46ae-9681-8929a5b0bff8" />
