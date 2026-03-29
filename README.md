@@ -9,17 +9,25 @@ The data file `EUR_2025.mat` provides a 2025 model of the European power grid, i
 For details on the methods and theoretical background, see Ref. [1].
 The workflow is built on the open-source MATLAB toolbox MATPOWER [2] for steady-state power flow calculations. All codes were tested on MATLAB R2024a.
 
-## Nonnormal analysis module
+## Nonnormal Analysis Module
 This module contains the core implementation for non-normality analysis of power grid models. The main entry point is `Cal_nonnormal.m`, which computes the non-normality metrics based on the linearized system matrix and serves as the central routine of the analysis.
 
 Supporting scripts are included for model construction and numerical routines. These files help ensure stable and efficient computation, especially for large-scale power systems.
 
 
-## Time-Domain Simulation and Disturbance Analysis
+## Simulation and Disturbance Analysis
 
 This module contains the main code for time-domain simulation of power grid dynamics, along with the results obtained under representative multi-contingency disturbances. In particular, it includes simulations of N-5 and N-6 disturbances applied to the European power grid model. The resulting frequency responses are aggregated at the country level and provided as data files for further analysis and visualization. 
 
 This component complements the nonnormality analysis by providing dynamic validation through large-scale transient simulations.
+
+
+
+## Synthetic Inertia Allocation
+
+This module implements a nonnormality-informed framework for synthetic inertia allocation in power grids. It provides tools to evaluate how redistributing inertia across generators affects system-level non-normality and transient frequency response. The main workflow supports allocating inertia to selected generators (either individually or in groups) and quantifying the resulting change in non-normality metrics. 
+
+This module enables exploration of targeted inertia placement strategies based on nonnormality, offering a more efficient alternative to uniform allocation.
 
 
 
