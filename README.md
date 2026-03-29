@@ -17,7 +17,7 @@ Supporting scripts are included for model construction and numerical routines. T
 
 ## Simulation and Disturbance Analysis
 
-This module contains the main code for time-domain simulation of power grid dynamics `Simulation.m `, along with the results obtained under representative multi-contingency disturbances. In particular, it includes simulations of N-5 and N-6 disturbances applied to the European power grid model. The resulting frequency responses are aggregated at the country level and provided as data files for further analysis and visualization. 
+This module contains the main code for time-domain simulation of power grid dynamics `Simulation.m`, along with the results obtained under representative multi-contingency disturbances. In particular, it includes simulations of N-5 and N-6 disturbances applied to the European power grid model. The resulting frequency responses are aggregated at the country level and provided as data files for further analysis and visualization. 
 
 This component complements the nonnormality analysis by providing dynamic validation through large-scale transient simulations.
 
@@ -25,7 +25,7 @@ This component complements the nonnormality analysis by providing dynamic valida
 
 ## Synthetic Inertia Allocation
 
-This module implements a nonnormality-informed framework for synthetic inertia allocation in power grids. It provides tools `Test_allocation.m ` to evaluate how redistributing inertia across generators affects system-level non-normality and transient frequency response. The main workflow supports allocating inertia to selected generators (either individually or in groups) and quantifying the resulting change in non-normality metrics. 
+This module implements a nonnormality-informed framework for synthetic inertia allocation in power grids. It provides tools `Test_allocation.m` to evaluate how redistributing inertia across generators affects system-level non-normality and transient frequency response. The main workflow supports allocating inertia to selected generators (either individually or in groups) and quantifying the resulting change in non-normality metrics. 
 
 This module enables exploration of targeted inertia placement strategies based on nonnormality, offering a more efficient alternative to uniform allocation.
 
