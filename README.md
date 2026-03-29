@@ -1,4 +1,4 @@
-# Non-normality analysis of the European power grid
+# Non-normality analysis of the power grid
 
 
 
