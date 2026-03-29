@@ -19,7 +19,7 @@ Supporting scripts are included for model construction and numerical routines. T
 
 This module contains the main code for time-domain simulation of power grid dynamics, along with the results obtained under representative multi-contingency disturbances. In particular, it includes simulations of N-5 and N-6 disturbances applied to the European power grid model. The resulting frequency responses are aggregated at the country level and provided as data files for further analysis and visualization. 
 
-This component complements the non-normality analysis by providing dynamic validation through large-scale transient simulations.
+This component complements the nonnormality analysis by providing dynamic validation through large-scale transient simulations.
 
 
 
