@@ -4,8 +4,6 @@
 
 This repository contains code for performing non-normality analysis of power grids, along with the associated datasets.
 
-The data file `EUR_2025.mat` provides a 2025 model of the European power grid, including transmission network topology, geographically resolved generator and load data (with a high share of renewable generation), and the corresponding generation mix under a representative operating condition. Additional datasets for other national-scale power systems are also included to support cross-grid validation of non-normality patterns.
-
 For details on the methods and theoretical background, see Ref. [1].
 The workflow is built on the open-source MATLAB toolbox MATPOWER [2] for steady-state power flow calculations. All codes were tested on MATLAB R2024a.
 
